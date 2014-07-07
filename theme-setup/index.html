@@ -262,7 +262,7 @@
 
 <h3 id="configyml">_config.yml</h3>
 
-<p>Most of the variables found here are used in the .html files found in <code>_includes</code> if you need to add or remove anything. A good place to start would be to change the title, tagline, description, and url of your site. Links are absolute and prefixed with <code>{{ site.url }}</code> in the various <code>_includes</code> and <code>_layouts</code>, so remember to properly set <code>url</code><sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> and use <code>http://localhost:4000</code> when developing locally or else the theme’s stylesheet and scripts won’t load.
+<p>Most of the variables found here are used in the .html files found in <code>_includes</code> if you need to add or remove anything. A good place to start would be to change the title, tagline, description, and url of your site. Links are absolute and prefixed with <code>{{ site.baseurl }}</code> in the various <code>_includes</code> and <code>_layouts</code>, so remember to properly set <code>url</code><sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> and use <code>http://localhost:4000</code> when developing locally or else the theme’s stylesheet and scripts won’t load.
 #### Disqus Comments</p>
 
 <p>Create a <a href="http://disqus.com">Disqus</a> account and change <code>disqus_shortname</code> in <code>_config.yml</code> to the Disqus <em>shortname</em> you just setup. To enable commenting on a post, add the following to its front matter:</p>
@@ -477,6 +477,7 @@ Creating new post: _posts/2014-02-10-my-awesome-post.md</code></pre></div>
     });
   })( jQuery, window );
 </script>
+
 
 
           
