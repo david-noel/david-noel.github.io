@@ -9,13 +9,40 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://developing.software.withdave.com/feed.xml" />
 <link rel="alternate" type="text/html" href="http://developing.software.withdave.com/" />
-<updated>2014-07-07T01:26:11-04:00</updated>
+<updated>2015-01-17T00:40:37-05:00</updated>
 <id>http://developing.software.withdave.com/</id>
 <author>
   <name>Dave Noel</name>
   <uri>http://developing.software.withdave.com/</uri>
   <email></email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[I need a side project]]></title>
+  <link rel="alternate" type="text/html" href="http://developing.software.withdave.com/material-design/"/>
+  <id>http://developing.software.withdave.com/material-design</id>
+  <updated>2015-01-17 00:02:01 -0500T00:00:00-00:00</updated>
+  <published>2015-01-17T00:00:00-05:00</published>
+  
+  <author>
+    <name>Dave Noel</name>
+    <uri>http://developing.software.withdave.com</uri>
+    <email></email>
+  </author>
+  <category scheme="http://developing.software.withdave.com/tags/#Android" term="Android" />
+  <content type="html">
+  
+    &lt;p&gt;I’m thinking more and more that I need a new side project to work on.  The project needs to be something that I
+personally need. I don’t care if no one else will find it useful.  A podcast app is most likely going to be that
+project. I listen to podcasts on my daily commute and I am really getting tired of how poor the apps are.  I need
+something better.  The app needs to be simple and useful while following current UX standards.  That means material
+design.  It has been a while since I have written an Android application.  It will be interesting to see how things
+have changed since I worked on mkRemote.&lt;/p&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://developing.software.withdave.com/material-design/&quot;&gt;I need a side project&lt;/a&gt; was originally published by Dave Noel at &lt;a href=&quot;http://developing.software.withdave.com&quot;&gt;Developing Software with Dave&lt;/a&gt; on January 17, 2015.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
@@ -33,7 +60,11 @@
   
   <content type="html">
   
-    &lt;p&gt;What gives?  All the Android podcast apps are pretty bad.  They all seem buggy and look horrendous.  Back in the day there was Google Listen but even it had issues.  Then came some apps that used Google Reader as a back end.  They were not great but they kind of worked.  Reader left the scene and everything left standing fails to meet my needs.  I’ve been using Podax for a while but it is really buggy.  I’m debating writing my own simple podcast player app.  Here are some of the features I will need.&lt;/p&gt;
+    &lt;p&gt;What gives?  All the Android podcast apps are pretty bad.  They all seem buggy and look horrendous.  Back in the day
+there was Google Listen but even it had issues.  Then came some apps that used Google Reader as a back end.
+They were not great but they kind of worked.  Reader left the scene and everything left standing fails to meet my needs.
+I’ve been using Podax for a while but it is really buggy.  I’m debating writing my own simple podcast player app.
+Here are some of the features I will need.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Support for a single Tiny Tiny RSS feed.  Additional feed management is performed by Tiny Tiny RSS.&lt;/li&gt;

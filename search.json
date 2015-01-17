@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "I need a side project",
+		  "category"   : "",
+		  "url"        : "http://developing.software.withdave.com/material-design/",
+		  "date"       : "2015-01-17 00:00:00 -0500",
+		  "shortdate"  : "January 17, 2015"
+		} ,
+	
+		{
 		  "title"      : "Why are there no decent Android podcast apps?",
 		  "category"   : "",
 		  "url"        : "http://developing.software.withdave.com/why-are-there-no-decent-android-podcast-apps/",
